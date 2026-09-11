@@ -54,35 +54,3 @@ Put them in `FINDINGS-QA.md` (create it) or a shared doc the interviewer names. 
 ### Optional stretch
 
 One concrete smoke check (e.g. happy-path API assertion or UI flow outline). Sketch is enough; full automation is bonus, not required.
-
----
-
-## Interviewer rubric (do not show candidates)
-
-**Pass**
-
-- Reproduces clearly with steps
-- Severity judgment matches impact
-- Reports are usable by an engineer without a live replay
-- Calm under ambiguity; prioritises user/business risk
-
-**Fail**
-
-- “It doesn’t work” with no steps
-- Only theorises the testing pyramid with no product exploration
-- Severity all “critical” or all “low” with no reasoning
-- Ignores API/data issues and only clicks randomly
-
-**Probe ideas**
-
-- “If we can only fix one bug before Friday, which and why?”
-- “What would you automate first in week 1 on this squad?”
-- “Release tonight with these findings — go or no-go?”
-
----
-
-## Notes for hiring managers
-
-- Same TaskFlow environment as Full Stack; schedule Codespace/Cursor warm-up the same way.
-- Do **not** grade QA candidates on implementing Spring/React fixes.
-- Link this path from the master live-assessments guidance Doc.
